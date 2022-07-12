@@ -1,0 +1,74 @@
+body {
+    font-family: 'Manrope', sans-serif;
+    background-color: hsl(218, 23%, 16%);
+}
+
+.bg-card {
+    background-color: hsl(217, 19%, 24%);
+}
+
+.txt-neon {
+    color: hsl(150, 100%, 66%);
+}
+
+.txt-advice {
+    color: hsl(193, 38%, 86%);
+}
+
+.bg-rounded {
+    border-radius: 10px;
+}
+
+.txt-font {
+    font-size: 25px;
+}
+
+.heading-txt {
+    font-size: 15px;
+
+}
+
+.bg-circle {
+    background-color: hsl(150, 100%, 66%);
+    border-radius: 39px;
+    width: 50px;
+    height: 50px;
+}
+.bg-circle:hover{
+    background-color: hsl(150, 100%, 66%);
+    box-shadow:0px 0px 25px hsl(150, 100%, 66%);
+    cursor: pointer;
+}
+
+.relative {
+    position: relative;
+}
+
+.absolute {
+    position: absolute;
+    top: 85%;
+    left: 44%;
+}
+
+.pad {
+    padding-top: 15px;
+    width: 20px;
+}
+
+@media screen and (max-width:769px) {
+    .absolute {
+        left: 45%;
+    }
+}
+
+@media screen and (max-width:500px) {
+    .absolute {
+        left: 44%;
+    }
+}
+
+@media screen and (max-width:400px) {
+    .absolute {
+        left: 43%;
+    }
+}
